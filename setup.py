@@ -85,7 +85,7 @@ setup(
     long_description_content_type="text/x-rst",
     author="Scott Werner",
     author_email="scott.werner.vt@gmail.com",
-    url="https://github.com/scottwernervt/cloudstorage/",
+    url="https://github.com/ltgc/cloudstorage/",
     packages=find_packages("src", exclude=("test*", "docs*")),
     package_dir={"": "src"},
     py_modules=[splitext(basename(path))[0] for path in glob("src/*.py")],
