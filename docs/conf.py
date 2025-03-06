@@ -22,7 +22,7 @@ master_doc = "index"
 project = "Cloud Storage"
 copyright = "Copyright 2017-2021 Scott Werner"
 author = "Scott Werner"
-version = release = "0.11.0"
+version = release = "0.11.1"
 
 # on_rtd is whether we are on readthedocs.org
 on_rtd = os.environ.get("READTHEDOCS", None) == "True"
