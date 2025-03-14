@@ -1,0 +1,7 @@
+name: Build and Publish Package
+on: workflow_dispatch
+
+jobs:
+  build-and-publish:
+    uses: ltgc/stlr-devops/.github/workflows/build_and_publish_python_package.yaml@v3
+    secrets: inherit
